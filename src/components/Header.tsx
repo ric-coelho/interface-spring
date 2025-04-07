@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Search, Menu, X, ChevronDown, User, Lock } from 'lucide-react';
 import { useIsMobile } from '@/hooks/use-mobile';
+import Logo from './Logo';
 
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -41,9 +42,7 @@ const Header: React.FC = () => {
       <div className="container-custom py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <div className="text-us-navy font-bold text-2xl">
-            <span className="text-gradient">US Bank</span>
-          </div>
+          <Logo />
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
