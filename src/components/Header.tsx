@@ -54,38 +54,40 @@ const Header: React.FC = () => {
                         </NavigationMenuLink>
                       </li>
                       <li>
-                        <NavigationMenuTrigger className="w-full justify-between">
-                          <span>Checking</span>
-                          <ChevronRight className="h-4 w-4 ml-2" />
-                        </NavigationMenuTrigger>
-                        <NavigationMenuContent>
-                          <ul className="grid w-[200px] gap-3 p-4">
-                            <li>
-                              <NavigationMenuLink asChild>
-                                <a className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
-                                  href="#">
-                                  <div className="text-sm font-medium">Standard Checking</div>
-                                </a>
-                              </NavigationMenuLink>
-                            </li>
-                            <li>
-                              <NavigationMenuLink asChild>
-                                <a className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
-                                  href="#">
-                                  <div className="text-sm font-medium">Premium Checking</div>
-                                </a>
-                              </NavigationMenuLink>
-                            </li>
-                            <li>
-                              <NavigationMenuLink asChild>
-                                <a className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
-                                  href="#">
-                                  <div className="text-sm font-medium">Student Checking</div>
-                                </a>
-                              </NavigationMenuLink>
-                            </li>
-                          </ul>
-                        </NavigationMenuContent>
+                        <NavigationMenuItem>
+                          <NavigationMenuTrigger className="w-full justify-between">
+                            <span>Checking</span>
+                            <ChevronRight className="h-4 w-4 ml-2" />
+                          </NavigationMenuTrigger>
+                          <NavigationMenuContent>
+                            <ul className="grid w-[200px] gap-3 p-4">
+                              <li>
+                                <NavigationMenuLink asChild>
+                                  <a className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                                    href="#">
+                                    <div className="text-sm font-medium">Standard Checking</div>
+                                  </a>
+                                </NavigationMenuLink>
+                              </li>
+                              <li>
+                                <NavigationMenuLink asChild>
+                                  <a className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                                    href="#">
+                                    <div className="text-sm font-medium">Premium Checking</div>
+                                  </a>
+                                </NavigationMenuLink>
+                              </li>
+                              <li>
+                                <NavigationMenuLink asChild>
+                                  <a className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                                    href="#">
+                                    <div className="text-sm font-medium">Student Checking</div>
+                                  </a>
+                                </NavigationMenuLink>
+                              </li>
+                            </ul>
+                          </NavigationMenuContent>
+                        </NavigationMenuItem>
                       </li>
                       <li>
                         <NavigationMenuLink asChild>
@@ -197,64 +199,68 @@ const Header: React.FC = () => {
                         </NavigationMenuLink>
                       </li>
                       <li>
-                        <NavigationMenuTrigger className="w-full justify-between">
-                          <span>Banking Demos</span>
-                          <ChevronRight className="h-4 w-4 ml-2" />
-                        </NavigationMenuTrigger>
-                        <NavigationMenuContent>
-                          <ul className="grid w-[200px] gap-3 p-4">
-                            <li>
-                              <NavigationMenuTrigger className="w-full justify-between">
-                                <span>Mobile Banking</span>
-                                <ChevronRight className="h-4 w-4 ml-2" />
-                              </NavigationMenuTrigger>
-                              <NavigationMenuContent>
-                                <ul className="grid w-[200px] gap-3 p-4">
-                                  <li>
-                                    <NavigationMenuLink asChild>
-                                      <a className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
-                                        href="#">
-                                        <div className="text-sm font-medium">App Tour</div>
-                                      </a>
-                                    </NavigationMenuLink>
-                                  </li>
-                                  <li>
-                                    <NavigationMenuLink asChild>
-                                      <a className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
-                                        href="#">
-                                        <div className="text-sm font-medium">Mobile Deposit</div>
-                                      </a>
-                                    </NavigationMenuLink>
-                                  </li>
-                                  <li>
-                                    <NavigationMenuLink asChild>
-                                      <a className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
-                                        href="#">
-                                        <div className="text-sm font-medium">Mobile Alerts</div>
-                                      </a>
-                                    </NavigationMenuLink>
-                                  </li>
-                                </ul>
-                              </NavigationMenuContent>
-                            </li>
-                            <li>
-                              <NavigationMenuLink asChild>
-                                <a className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
-                                  href="#">
-                                  <div className="text-sm font-medium">Online Banking</div>
-                                </a>
-                              </NavigationMenuLink>
-                            </li>
-                            <li>
-                              <NavigationMenuLink asChild>
-                                <a className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
-                                  href="#">
-                                  <div className="text-sm font-medium">Zelle</div>
-                                </a>
-                              </NavigationMenuLink>
-                            </li>
-                          </ul>
-                        </NavigationMenuContent>
+                        <NavigationMenuItem>
+                          <NavigationMenuTrigger className="w-full justify-between">
+                            <span>Banking Demos</span>
+                            <ChevronRight className="h-4 w-4 ml-2" />
+                          </NavigationMenuTrigger>
+                          <NavigationMenuContent>
+                            <ul className="grid w-[200px] gap-3 p-4">
+                              <li>
+                                <NavigationMenuItem>
+                                  <NavigationMenuTrigger className="w-full justify-between">
+                                    <span>Mobile Banking</span>
+                                    <ChevronRight className="h-4 w-4 ml-2" />
+                                  </NavigationMenuTrigger>
+                                  <NavigationMenuContent>
+                                    <ul className="grid w-[200px] gap-3 p-4">
+                                      <li>
+                                        <NavigationMenuLink asChild>
+                                          <a className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                                            href="#">
+                                            <div className="text-sm font-medium">App Tour</div>
+                                          </a>
+                                        </NavigationMenuLink>
+                                      </li>
+                                      <li>
+                                        <NavigationMenuLink asChild>
+                                          <a className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                                            href="#">
+                                            <div className="text-sm font-medium">Mobile Deposit</div>
+                                          </a>
+                                        </NavigationMenuLink>
+                                      </li>
+                                      <li>
+                                        <NavigationMenuLink asChild>
+                                          <a className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                                            href="#">
+                                            <div className="text-sm font-medium">Mobile Alerts</div>
+                                          </a>
+                                        </NavigationMenuLink>
+                                      </li>
+                                    </ul>
+                                  </NavigationMenuContent>
+                                </NavigationMenuItem>
+                              </li>
+                              <li>
+                                <NavigationMenuLink asChild>
+                                  <a className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                                    href="#">
+                                    <div className="text-sm font-medium">Online Banking</div>
+                                  </a>
+                                </NavigationMenuLink>
+                              </li>
+                              <li>
+                                <NavigationMenuLink asChild>
+                                  <a className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                                    href="#">
+                                    <div className="text-sm font-medium">Zelle</div>
+                                  </a>
+                                </NavigationMenuLink>
+                              </li>
+                            </ul>
+                          </NavigationMenuContent>
+                        </NavigationMenuItem>
                       </li>
                       <li>
                         <NavigationMenuLink asChild>
